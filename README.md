@@ -196,7 +196,7 @@ pytest -v -p no:langsmith
 ```
 *Expected output: `21 passed in ~6 seconds`.*
 
-### 5. Launch the Streamlit Application
+### 5. Launch the Streamlit Application Locally
 Run either:
 ```bash
 python run.py
@@ -206,6 +206,25 @@ or standard Streamlit:
 streamlit run app.py
 ```
 Then open your browser at **[http://localhost:8501](http://localhost:8501)**.
+
+---
+
+## ☁️ Deploying to Render (Cloud Hosting)
+
+To deploy VitalTwin AI on [Render](https://render.com/) as a free Web Service:
+
+1. **Connect Repository:** Log in to Render and click **New +** &rarr; **Web Service**, then select your repository: `https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo`.
+2. **Environment:** Select **Python 3**.
+3. **Build Command:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Start Command:**
+   ```bash
+   streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+   ```
+   *(or simply: `python run.py`)*
+5. **Click "Deploy Web Service":** Render will build and host your interactive digital twin dashboard with a public HTTPS URL.
 
 ---
 

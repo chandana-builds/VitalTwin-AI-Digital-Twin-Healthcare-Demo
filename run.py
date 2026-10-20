@@ -19,5 +19,16 @@ from streamlit.web import cli as stcli
 
 if __name__ == "__main__":
     app_path = os.path.join(PROJECT_ROOT, "app.py")
-    sys.argv = ["streamlit", "run", app_path, "--server.port", "8501"]
+    port = os.environ.get("PORT", "8501")
+    sys.argv = [
+        "streamlit",
+        "run",
+        app_path,
+        "--server.port",
+        str(port),
+        "--server.address",
+        "0.0.0.0",
+        "--server.headless",
+        "true",
+    ]
     sys.exit(stcli.main())
