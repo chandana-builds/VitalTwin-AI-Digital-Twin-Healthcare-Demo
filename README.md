@@ -40,9 +40,8 @@ The platform provides clinicians and researchers with:
 - **🌐 Live Cloud Application:** **[https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/](https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/)**
 - **Official GitHub Repository:** [https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo](https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo)
 - **Demo Screen Recording (MP4):** [docs/vitaltwin_demo_video.mp4](docs/vitaltwin_demo_video.mp4)
-- **Team Members:** `[Placeholder: Team Lead & Researchers, Affiliation / Institution]`
-- **College / Incubator / University:** `[Placeholder: Department / University / Innovation Incubator]`
-- **Future Unlisted Video URL:** `[Placeholder: https://youtube.com/watch?v=vitaltwin-ai-demo-placeholder]` *(Unlisted YouTube demo will be linked here)*
+- **Team Members:** `Gurrapu Chandana`
+- **College / Incubator / University:** `Balaji Institute of Technology and Science`
 
 ---
 
