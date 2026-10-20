@@ -1,6 +1,7 @@
 # VitalTwin AI
 ### *An Explainable Digital Twin for Predictive Healthcare*
 
+[![Live on Render](https://img.shields.io/badge/Render-Live%20Demo-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.40+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Random%20Forest-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -36,10 +37,11 @@ The platform provides clinicians and researchers with:
 
 - **Project Name:** VitalTwin AI
 - **Tagline:** An Explainable Digital Twin for Predictive Healthcare
-- **Team Members:** `[Placeholder: Team Lead & Researchers, Affiliation / Institution]`
-- **College / Incubator / University:** `[Placeholder: Department / University / Innovation Incubator]`
+- **🌐 Live Cloud Application:** **[https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/](https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/)**
 - **Official GitHub Repository:** [https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo](https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo)
 - **Demo Screen Recording (MP4):** [docs/vitaltwin_demo_video.mp4](docs/vitaltwin_demo_video.mp4)
+- **Team Members:** `[Placeholder: Team Lead & Researchers, Affiliation / Institution]`
+- **College / Incubator / University:** `[Placeholder: Department / University / Innovation Incubator]`
 - **Future Unlisted Video URL:** `[Placeholder: https://youtube.com/watch?v=vitaltwin-ai-demo-placeholder]` *(Unlisted YouTube demo will be linked here)*
 
 ---
@@ -209,12 +211,15 @@ Then open your browser at **[http://localhost:8501](http://localhost:8501)**.
 
 ---
 
-## ☁️ Deploying to Render (Cloud Hosting)
+## ☁️ Cloud Deployment on Render
 
-To deploy VitalTwin AI on [Render](https://render.com/) as a free Web Service:
+VitalTwin AI is deployed and running live on Render:
 
-1. **Connect Repository:** Log in to Render and click **New +** &rarr; **Web Service**, then select your repository: `https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo`.
-2. **Environment:** Select **Python 3**.
+🔗 **Live Public App:** **[https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/](https://vitaltwin-ai-digital-twin-healthcare-demo.onrender.com/)**
+
+### Deployment Configuration Reference:
+1. **Repository:** `https://github.com/chandana-builds/VitalTwin-AI-Digital-Twin-Healthcare-Demo`
+2. **Environment:** Python 3
 3. **Build Command:**
    ```bash
    pip install -r requirements.txt
@@ -224,7 +229,7 @@ To deploy VitalTwin AI on [Render](https://render.com/) as a free Web Service:
    streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
    ```
    *(or simply: `python run.py`)*
-5. **Click "Deploy Web Service":** Render will build and host your interactive digital twin dashboard with a public HTTPS URL.
+5. **Blueprint:** A [`render.yaml`](render.yaml) file is included for 1-click infrastructure-as-code deployment.
 
 ---
 
